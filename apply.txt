@@ -1,0 +1,11 @@
+=== MiMo 100T 申请信息 ===
+
+项目名称: CodeRev Agent
+项目地址: https://github.com/kuiti/coderev-agent
+
+项目描述:
+CodeRev Agent 是一个基于多智能体协同的 AI 代码审查工具。它同时启动安全、性能、逻辑、风格四个专用 Agent，并行审查代码变更，每个 Agent 沿函数调用链进行长链路推理分析，最终聚合为结构化审查报告。可集成到 Claude Code、Git Hooks 或 CI 流水线中。
+
+常用AI工具: Claude Code
+底层模型: MiMo-V2.5-Pro（计划接入）
+使用场景: 日常开发中自动审查代码，pre-commit 安全检查，review 遗留代码
