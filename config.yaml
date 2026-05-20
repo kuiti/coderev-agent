@@ -1,0 +1,23 @@
+# MiMo API 配置 (OpenAI 兼容接口)
+api:
+  base_url: "https://api.xiaomimimo.com/v1"
+  api_key: "your-api-key-here"
+  model: "mimo-v2.5-pro"
+  max_tokens: 4096
+  temperature: 0.1
+  timeout: 120
+
+review:
+  # 审查文件扩展名
+  extensions:
+    - ".py"
+  # 单文件最大行数（超大文件跳过分块提示）
+  max_lines: 2000
+  # 每个 Agent 超时（秒）
+  agent_timeout: 180
+
+output:
+  # 默认输出格式: markdown | json
+  format: markdown
+  # 报告输出目录
+  dir: "./reports"
